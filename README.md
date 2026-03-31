@@ -1,10 +1,10 @@
 # grug
 
-Complexity is the enemy. This plugin does two things:
+Complexity bad. This plugin does two things:
 
-**`/grug:init`** — Adds [Grug Brain](https://grugbrain.dev/) + [Radical Simplicity](https://www.radicalsimplicity.com/) principles to your global `~/.claude/CLAUDE.md`. Run once.
+`/grug:init` — puts [grug brain](https://grugbrain.dev/) principles in your `~/.claude/CLAUDE.md`. Run once.
 
-**`/grug:harness`** — For big features only. Defines acceptance criteria before coding, runs implementation in a worktree, evaluates with a separate agent. [Based on this](https://www.anthropic.com/engineering/harness-design-long-running-apps) and [this](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents).
+`/grug:harness` — for big features. Write acceptance criteria first, build in a worktree, let a separate agent decide if it actually works. Based on [this](https://www.anthropic.com/engineering/harness-design-long-running-apps) and [this](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents).
 
 ## Install
 
@@ -13,7 +13,7 @@ Complexity is the enemy. This plugin does two things:
 /plugin install grug@grug
 ```
 
-Requires [superpowers](https://github.com/anthropics/claude-code) plugin for `/grug:harness`.
+Needs [superpowers](https://github.com/anthropics/claude-code) plugin for `/grug:harness`.
 
 ## License
 
