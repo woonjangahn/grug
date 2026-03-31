@@ -1,0 +1,10 @@
+{
+  "name": "grug",
+  "description": "Radical Simplicity development plugin for Claude Code",
+  "plugins": {
+    "grug": {
+      "description": "Structured Planner→Generator→Evaluator pipeline with Grug Brain philosophy",
+      "path": "."
+    }
+  }
+}
