@@ -1,10 +1,13 @@
 {
   "name": "grug",
-  "description": "Radical Simplicity development plugin for Claude Code",
-  "plugins": {
-    "grug": {
-      "description": "Structured Planner→Generator→Evaluator pipeline with Grug Brain philosophy",
-      "path": "."
+  "owner": {
+    "name": "Woonjang Ahn"
+  },
+  "plugins": [
+    {
+      "name": "grug",
+      "source": ".",
+      "description": "Radical Simplicity development plugin. Structured Planner→Generator→Evaluator pipeline with Grug Brain philosophy."
     }
-  }
+  ]
 }
