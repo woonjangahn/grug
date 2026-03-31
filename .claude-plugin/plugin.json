@@ -1,6 +1,6 @@
 {
   "name": "grug",
-  "description": "Radical Simplicity development plugin. /grug:harness for structured Planner-Generator-Evaluator pipelines with acceptance criteria and independent evaluation. /grug:init to inject Grug Brain principles into your global CLAUDE.md. Inspired by Anthropic's long-running agent research.",
+  "description": "Grug Brain + Radical Simplicity. /grug:init adds principles to CLAUDE.md. /grug:harness runs big features through plan-build-evaluate pipeline.",
   "version": "1.0.0",
   "author": {
     "name": "Woonjang Ahn"
