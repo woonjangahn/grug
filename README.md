@@ -24,6 +24,36 @@ Or test locally:
 claude --plugin-dir /path/to/grug
 ```
 
+<details>
+<summary>For LLMs: copy this prompt to install grug</summary>
+
+<pre>
+Install the grug plugin for Claude Code. Follow these steps exactly:
+
+1. Add the grug marketplace:
+   Run: /plugin marketplace add woonjangahn/grug
+
+2. Install the grug plugin:
+   Run: /plugin install grug@grug
+
+3. Install required dependencies (superpowers plugin):
+   Run: /plugin marketplace add anthropics/claude-code
+   Run: /plugin install superpowers@claude-plugins-official
+
+4. (Optional) Install Playwright for browser-based acceptance criteria verification:
+   Run: /plugin install playwright@claude-plugins-official
+
+5. Verify installation:
+   Run: /help
+   Confirm /grug:init and /grug:harness are listed.
+
+6. Run /grug:init to inject Radical Simplicity principles into ~/.claude/CLAUDE.md.
+
+After setup, use /grug:harness for substantial multi-step features.
+</pre>
+
+</details>
+
 ## Commands
 
 ### `/grug:init`
