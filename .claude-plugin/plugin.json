@@ -1,6 +1,6 @@
 {
   "name": "grug",
-  "description": "Grug Brain + Radical Simplicity. /grug:init adds principles to CLAUDE.md. /grug:harness runs big features through plan-build-evaluate pipeline.",
+  "description": "Grug Brain development plugin. /grug:init sets up principles. /grug:harness for big features.",
   "version": "1.0.0",
   "author": {
     "name": "Woonjang Ahn"
