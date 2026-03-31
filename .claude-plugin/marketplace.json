@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "grug",
-      "source": ".",
+      "source": "./",
       "description": "Radical Simplicity development plugin. Structured Planner→Generator→Evaluator pipeline with Grug Brain philosophy."
     }
   ]
