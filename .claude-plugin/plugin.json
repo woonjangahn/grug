@@ -6,8 +6,5 @@
     "name": "Woonjang Ahn"
   },
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/woonjangahn/grug"
-  }
+  "repository": "https://github.com/woonjangahn/grug"
 }
